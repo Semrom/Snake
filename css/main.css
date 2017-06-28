@@ -1,0 +1,31 @@
+/**
+*   Crée par Romain Semler (http://semrom.fr/)
+*   Dernière mise à jour : 13/06/2017
+**/
+
+header {
+
+    display: none;
+}
+
+#canvas {
+
+    border: 2px solid #DF691A;
+    border-radius: 20px;
+    display: none;
+}
+
+#fin {
+
+    display: none;
+}
+
+.centrer {
+
+    text-align: center;
+}
+
+.isoler-haut {
+
+    margin-top: 25px;
+}

@@ -1,0 +1,64 @@
+<!--
+ * Réalisé par Romain Semler (http://semrom.fr/)
+ * Dernière mise à jour : 13/06/2017
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Le jeu du serpent | Romain Semler</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="centrer">
+                <h1 id="score">Score : 0</h1>
+                <p>
+                    <a class="btn btn-success btn-lg" id="pause">Pause</a>
+                    <a class="btn btn-primary btn-lg" id="reset">Recommencer</a>
+                </p>
+            </header>
+
+            <section class="centrer col-lg-12">
+                <!-- Zone de jeu -->
+                <div id="jeu">
+                </div>
+
+                <!-- Menu principal -->
+                <div id="menu" class="isoler-haut jumbotron">
+                    <h1>Le jeu du serpent</h1>
+                    <p>Dirigez le serpent avec les flèches du clavier pour lui faire manger les petits carrés et le faire grossir.<br />Si le serpent touche sa propre queue c'est perdu.</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" id="commencer">Commencer</a>
+                        <a class="btn btn-primary btn-lg reglages disabled">Réglages</a>
+                    </p>
+                </div>
+
+                <!-- Game Over -->
+                <div id="fin" class="isoler-haut jumbotron">
+                    <h1>Game Over !</h1>
+                    <p id="fin-desc">Le serpent a touché sa queue !</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" id="recommencer">Recommencer</a>
+                        <a class="btn btn-primary btn-lg reglages disabled">Réglages</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer centrer isoler-haut">
+            <div class="container">
+                <p class="text-muted">Réalisé par Romain Semler ©2017</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/snake.js"></script>
+        <noscript>Quel dommage ! Votre navigateur ne supporte pas JavaScript... ou alors JavaScript a été désactivé.</noscript>
+    </body>
+</html>
