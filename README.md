@@ -6,5 +6,5 @@ Cette méthode de réalisation (avec le canvas) permet au jeu de fonctionner en 
 Il est possible d'y jouer ici : https://semrom.fr/jeux/serpent
 
 -----------------------
-Plus d'infos : https://semrom.fr/projets/snake.php
+Plus d'infos : https://semrom.fr/projets/snake.php    
 More : https://semrom.fr/en/projects/snake.php
