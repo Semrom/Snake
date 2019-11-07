@@ -8,3 +8,4 @@ Il est possible d'y jouer ici : https://semrom.fr/jeux/snake/
 -----------------------
 Plus d'infos : https://semrom.fr/projets/snake.php    
 More : https://semrom.fr/en/projects/snake.php
+C'est un super jeu !
